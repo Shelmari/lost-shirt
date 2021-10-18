@@ -151,8 +151,7 @@ ul > li {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 325px;
-  padding: 0 2.2%;
+  width: 75px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -161,12 +160,36 @@ ul > li {
   background-color: #212121;
 }
 
+.sidebar--opened {
+  width: 325px;
+  padding: 0 2.2%;
+}
+
+.sidebar--opened .sidebar__header {
+  display: flex;
+}
+
+.sidebar--opened .sidebar__hamburger {
+  display: none;
+}
+
+.sidebar__hamburger {
+  position: absolute;
+  top: 28px;
+}
+
+.sidebar__hamburger-icon {
+  width: 23px;
+  height: 21px;
+  fill: var(--yellow);
+}
+
 .sidebar__header {
   position: absolute;
   top: 30px;
   left: 0;
   right: 0;
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
@@ -183,7 +206,14 @@ ul > li {
   fill: var(--yellow);
 }
 
-.side-menu__list {
+.sidebar__menu {
+  position: absolute;
+  left: -500px;
+}
+
+.sidebar--opened .sidebar__menu {
+  left: 0;
+  width: 100%;
   text-align: center;
 }
 
