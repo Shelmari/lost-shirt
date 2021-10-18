@@ -8,10 +8,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Lost shirt</title>
+  <title>Lost shirt | Main Pages</title>
 </head>
 <body>
   <div class="wrapper">
+
     <section class="hero">
       <header class="header">
         <a href="#" class="logo">
@@ -95,90 +96,107 @@
         </nav>
       </aside>
     </section>
-    <section class="product">
+    <section class="products">
       <div class="container">
         <ul class="filter">
-          <li class="product__item product__item--active">
-            <a href="#" class="product__link">Популярное</a></li>
-          <li class="product__item">
-            <a href="#" class="product__link">Новинки</a></li>
-          <li class="product__item">
-            <a href="#" class="product__link">Бестселлеры</a></li>
-          <li class="product__item">
-            <a href="#" class="product__link">Специальные предложения</a></li>
-          <li class="product__item">
-            <a href="#" class="product__link">Скоро в продаже</a></li>
+          <li class="filter__item filter__item--active">
+            <a href="#" data-filter="popular" class="filter__link">Популярное</a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="new" class="filter__link">Особые</a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="bestsellers" class="filter__link">Бестселлеры</a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="specials" class="filter__link">Специальные предложения</a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="soon" class="filter__link">Скоро в продаже</a>
+          </li>
         </ul>
         <ul class="products__list">
-          <li class="products__item">
+          <li class="products__item popular bestsellers soon">
             <div class="products__price">
-              <p class="products__price--amount">1 800</p>
+              <div class="products__price-amount">1 800</div>
             </div>
             <div class="products__content">
               <img src="./img/tshirts/tshirt_01.png" alt="футболка с лошадью" class="products__img">
               <div class="products__desc">
-                <p class="product__desc--text">Мужская футболка 3D с принтом Летающие черепахи</p>
+                <div class="products__desc-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
                 <a href="#" class="btn">Подробнее</a>
               </div>
             </div>
           </li>
-          <li class="products__item">
+          <li class="products__item popular specials soon">
             <div class="products__price">
-              <p class="products__price--amount">1 800</p>
+              <div class="products__price-amount">1 800</div>
             </div>
             <div class="products__content">
-              <img src="./img/tshirts/tshirt_02.png" alt="футболка с лошадью" class="products__img">
+              <img src="./img/tshirts/tshirt_02.png" alt="bo-jack tshirt" class="products__img">
               <div class="products__desc">
-                <p class="product__desc--text">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <a href="#" class="btn">Подробнее</a>
+                <div class="products__desc-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <a href="" class="btn">Подробнее</a>
               </div>
             </div>
           </li>
-          <li class="products__item products__item--color-black product__item--size-double">
+          <li class="products__item popular new products__item--color-black products__item--size-double">
             <div class="products__price">
-              <p class="products__price--amount">1 800</p>
+              <div class="products__price-amount">1 800</div>
             </div>
             <div class="products__content">
-              <img src="./img/tshirts/tshirt_03.png" alt="футболка с лошадью" class="products__img">
+              <img src="./img/tshirts/tshirt_03.png" alt="bo-jack tshirt" class="products__img">
               <div class="products__desc">
-                <p class="product__desc--text">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <a href="#" class="btn">Подробнее</a>
+                <div class="products__desc-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <a href="" class="btn">Подробнее</a>
               </div>
             </div>
           </li>
-          <li class="products__item products__item--color-black product__item--size-double">
+          <li class="products__item popular new bestsellers products__item--color-black products__item--size-double">
             <div class="products__price">
-              <p class="products__price--amount">1 800</p>
+              <div class="products__price-amount">1 800</div>
             </div>
             <div class="products__content">
-              <img src="./img/tshirts/tshirt_04.png" alt="футболка с лошадью" class="products__img">
+              <img src="./img/tshirts/tshirt_04.png" alt="bo-jack tshirt" class="products__img">
               <div class="products__desc">
-                <p class="product__desc--text">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <a href="#" class="btn">Подробнее</a>
+                <div class="products__desc-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <a href="" class="btn">Подробнее</a>
               </div>
             </div>
           </li>
-          <li class="products__item">
+          <li class="products__item popular soon ">
             <div class="products__price">
-              <p class="products__price--amount">1 800</p>
+              <div class="products__price-amount">1 800</div>
             </div>
             <div class="products__content">
-              <img src="./img/tshirts/tshirt_05.png" alt="футболка с лошадью" class="products__img">
+              <img src="./img/tshirts/tshirt_05.png" alt="bo-jack tshirt" class="products__img">
               <div class="products__desc">
-                <p class="product__desc--text">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <a href="#" class="btn">Подробнее</a>
+                <div class="products__desc-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <a href="" class="btn">Подробнее</a>
               </div>
             </div>
           </li>
-          <li class="products__item">
+          <li class="products__item popular bestsellers soon">
             <div class="products__price">
-              <p class="products__price--amount">1 800</p>
+              <div class="products__price-amount">1 800</div>
             </div>
             <div class="products__content">
-              <img src="./img/tshirts/tshirt_06.png" alt="футболка с лошадью" class="products__img">
+              <img src="./img/tshirts/tshirt_06.png" alt="bo-jack tshirt" class="products__img">
               <div class="products__desc">
-                <p class="product__desc--text">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <a href="#" class="btn">Подробнее</a>
+                <div class="products__desc-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <a href="" class="btn">Подробнее</a>
               </div>
             </div>
           </li>
@@ -321,6 +339,7 @@
       
     </footer>
   </div>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="./scripts/sidebar-menu.js"></script>
   <script src="./scripts/fade-slider.js"></script>
   <script src="./scripts/filter.js"></script>
