@@ -158,6 +158,7 @@ ul > li {
   justify-content: center;
   align-items: center;
   background-color: #212121;
+  transition: width .3s;
 }
 
 .sidebar--opened {
@@ -209,12 +210,15 @@ ul > li {
 .sidebar__menu {
   position: absolute;
   left: -500px;
+  transition: left .3s;
 }
 
 .sidebar--opened .sidebar__menu {
   left: 0;
   width: 100%;
   text-align: center;
+  transition-delay: .1s;
+
 }
 
 .side-menu__item {
