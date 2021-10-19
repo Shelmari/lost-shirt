@@ -39,7 +39,7 @@ ul > li {
 
 .wrapper {
   overflow: hidden; /*скрывает выпадающую часть*/
-  min-width: 1310px;
+  min-width: 1440px;
 }
 
 .container {
